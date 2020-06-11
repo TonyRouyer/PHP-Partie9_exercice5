@@ -18,5 +18,3 @@
     <?= 'il y a eu ' . round($nbJours) . ' jour depuis le 16 mais 2016' ?>
 </body>
 </html>
-
-
