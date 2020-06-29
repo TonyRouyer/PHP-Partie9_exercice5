@@ -17,9 +17,10 @@
     ?>
     <?= 'il y a eu ' . floor($nbJours) . ' jour depuis le 16 mais 2016' ?>
     <?php
+        //version objet
         $mayDate = new DateTime('2016-05-16');
         $todayDate = new DateTime();
     ?>
-    <p><?= $mayDate->diff($todayDate)->format('%a'); ?></p>
+    <p><?= $mayDate->diff($todayDate)->format('%a'); //on sousttrait pluis on formate?></p>
 </body>
 </html>
